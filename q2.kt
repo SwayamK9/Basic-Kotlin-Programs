@@ -1,4 +1,4 @@
 fun main() {
-    val n = readLine()!!.toInt()
+    val n = 7
     if (n % 2 == 0) println("Even") else println("Odd")
 }

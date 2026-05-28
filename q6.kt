@@ -1,8 +1,10 @@
 fun main() {
-    val n = readLine()!!.toInt()
-    var fact = 1L
+    val n = 5
+    var fact = 1
+
     for (i in 1..n) {
-        fact *= i.toLong()
+        fact *= i
     }
+
     println(fact)
 }

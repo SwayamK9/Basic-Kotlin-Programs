@@ -7,6 +7,5 @@ fun sum(n: Int): Int {
 }
 
 fun main() {
-    val n = readLine()!!.toInt()
-    println(sum(n))
+    println(sum(10))
 }
